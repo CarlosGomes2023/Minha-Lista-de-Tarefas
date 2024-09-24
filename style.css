@@ -1,0 +1,108 @@
+:root{
+    --color-dark: rgb(14,14,14);
+    --color-dark2: rgb(32,32,32);
+    --color-dark3: rgbb(22,22,22);
+    --color-white: #fff;
+    --color-green: rgb(137, 248, 109);
+    --color-green2: rgb(51,149,26);
+    --color--red: rgb(184,40,35);
+    --color-red2: rgb(145,22,17);
+    --purple: purple;
+}
+
+body{
+    font-family: Arial;
+    color: var(--color-white);
+    font-size: 16px;
+    background-color: var(--color-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap; /*o wrap ajuda bastante quando falamos de resp.*/
+
+}
+
+ .content-item{
+    display: flex;
+    gap: 2rem; /*o gap permite distanciar elementos*/
+    flex-wrap: wrap;
+ }
+
+ #input-item, #add{
+
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem; 
+
+
+ }
+
+ 
+ #input-item{
+     width: 20rem;
+     border-radius: 1rem;
+    
+ }
+
+ #add{
+    background-color: var(--color-dark2);
+    color: var(--color-green);
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: .1s;
+ }
+
+ #add:hover{
+     background-color: var(--color-dark1);
+ }
+
+
+#to-do-list{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    padding-left: 0;
+ 
+}
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-ok{
+    border-radius: 15px;
+    background-color: var(--color-dark2);
+    color: var(--color-green);
+    width:15%;
+}
+
+.cg{
+    padding-left: 29px;
+}
+
+.tar{
+
+   font-size: 35px;
+ 
+  
+}
+
+footer{
+    background-color: #fff;
+    width: 90%;
+    font: black
+}
+
+
+
